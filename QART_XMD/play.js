@@ -47,7 +47,7 @@ module.exports = {
         fs.unlinkSync(outputPath);
 
         // Edit the original reply to indicate completion
-        await client.sendMessage(message.chat, "✅ Download complete! Here's your audio... *powered by༺𝐕𝐀𝐑 𝐊𝐈𝐓𝐀𝐀༻*");
+        await client.sendMessage(message.chat, "✅ Download complete! Here's your audio... *powered by 𝗤𝗔𝗥𝗧_𝗫𝗠𝗗*");
       });
 
       // Handle errors during download
