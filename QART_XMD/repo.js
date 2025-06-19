@@ -38,21 +38,20 @@ const date = moment().format('DD/MM/YYYY');
   ༆ *REPOS & GROUPS* ༆ 
 ╚════════════════╝  
   
-📢 *CHANNEL*  
-➤  https://whatsapp.com/channel/0029VasLXWp4tRs0xU9MDc47
+🚀 *CHANNEL*  
+➤  https://whatsapp.com/channel/0029VatokI45EjxufALmY32X
   
-👥 *GROUP*  
+🦠 *GROUP*  
 ➤ https://chat.whatsapp.com/DTnrZzULVtP5r0E9rhoFOj
   
 💻 *REPO*  
-➤ https://github.com/Raphaaaaa05/VAR_KITAA
+➤ https://github.com/Qartey/QART_XMD
   
-▶️ *YOUTUBE*  
-➤ 𝐒𝐎𝐎𝐍 𝐀𝐒 𝐏𝐎𝐒𝐈𝐁𝐋𝐄
+▶️ *REPO2*  
+➤ https://github.com/Qartde/RAHMANI-XMD
   
 ══════════════  
-🎨 *DESIGNED BY*  
-𝐌𝐑 𝐍𝐎𝐁𝐎𝐃𝐘
+🌀 *DESIGNED BY* 𝗤𝗔𝗥𝗧🍁 
 ══════════════  
   
 🔔 *Stay Connected!*  
@@ -65,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     BOT CREATED BY 𝐌𝐑 𝐍𝐎𝐁𝐎𝐃𝐘
+     BOT CREATED BY 𝐐𝐀𝐑𝐓_𝐗𝐌𝐃
 
 ❒────────────────────❒`;
 
