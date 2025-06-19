@@ -74,7 +74,7 @@ else {
         if(!superUser) { repondre("*QART_XMD IS ALIVE FOR A LIFE TIME*") ; return};
 
       await   repondre("QART_XMD IS ALIVE AT THE MOMMENT DEPLOY IT NOW AND ENJOY");
-         repondre("don't do fake thinks :)")
+         repondre("💫𝗔𝗟𝗪𝗔𝗬𝗦 𝗤𝗔𝗥𝗧_𝗫𝗠𝗗🇹🇿🚀")
      }
  } else {
 
