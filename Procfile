@@ -1,2 +1,2 @@
 
-web: node pkdriller.js && node pkdriller.js
+web: node QART_XMD.js && node QART_XMD.js
