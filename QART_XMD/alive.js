@@ -71,14 +71,14 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("*VAR_KITAA IS ALIVE FOR A LIFE TIME*") ; return};
+        if(!superUser) { repondre("*QART_XMD IS ALIVE FOR A LIFE TIME*") ; return};
 
-      await   repondre("VAR_KITAA IS ALIVE AT THE MOMMENT DEPLOY IT NOW AND ENJOY");
+      await   repondre("QART_XMD IS ALIVE AT THE MOMMENT DEPLOY IT NOW AND ENJOY");
          repondre("don't do fake thinks :)")
      }
  } else {
 
-    if(!superUser) { repondre ("VAR_KITAA ONLY") ; return};
+    if(!superUser) { repondre ("QART_XMD ONLY") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('BIG UP MWANAKITAA. ')
+repondre('💫𝗔𝗟𝗪𝗔𝗬𝗦 𝗤𝗔𝗥𝗧_𝗫𝗠𝗗🇹🇿🚀. ')
 
 }
     });
