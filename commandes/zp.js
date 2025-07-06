@@ -98,7 +98,7 @@ zokou({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌀 *Bot Repo:* https://github.com/Qartey/QART_XMD-.git
 
->regards qartmdbot@gmail.com`,
+>QART_XMD`,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -120,9 +120,9 @@ zokou({
 ┊ *𝑸𝒖𝒂𝒍𝒊𝒕𝒚:* 𝑯𝒊𝒈𝒉
 ┊ *𝒑𝒐𝒘𝒆𝒓𝒆𝒅:* 𝒃𝒚 𝑸𝒂𝒓𝒕  
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Qartey/QART_XMD-.git
+🌀 *Bot Repo:* https://github.com/Qartey/QART_XMD-.git
 
->regards qartmdbot@gmail.com`,
+>QART_XMD`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -145,7 +145,7 @@ zokou({
 ┊ *𝒑𝒐𝒘𝒆𝒓𝒆𝒅:* 𝒃𝒚 𝑸𝒂𝒓𝒕 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌀 *Bot Repo:*https://github.com/Qartey/QART_XMD-.git
-> regards qartmdbot@gmail.com`,
+> QART_XMD`,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -246,7 +246,7 @@ zokou({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Qartey/QART_XMD-.git
 
-> regards qartmdbot@gmail.com`,
+> QART_XMD`,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -270,7 +270,7 @@ zokou({
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌀 *Bot Repo:* https://github.com/Qartey/QART_XMD-.git
 
-> regards qartmdbot@gmail.com`,
+> QART_XMD`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
