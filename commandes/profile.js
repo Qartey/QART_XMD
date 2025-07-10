@@ -52,7 +52,7 @@ zokou({
     console.error('Unexpected error in profile command:', error); 
   }
 });
-ezra({
+zokou({
   nomCom: "profile2",
   aliases: ["pp2", "whois2"],
   desc: "to generate business profile picture",
