@@ -1,9 +1,9 @@
 {
-  "name":"RAHMANI_MD CREAED BY RAHMANI",
-  "description":"Best WhatsApp Bot Developed By Danny Contact Us 255697608274,255693629079 Thank you for choose RAHMANI_MD",
+  "name":"QART_XMD CREATED BY RAHMANI",
+  "description":"Best WhatsApp Bot Developed By Rahmani Contact 255693629079 Thank you for choose QART_XMD",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/aktbgo.jpg",
-  "repository":"https://github.com/Qartde/Rahmani-Md",
+  "logo":"https://files.catbox.moe/2md9k8.jpg",
+  "repository":"https://github.com/Qartey/QART_XMD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"Don't change",
-      "value":"𝑹𝑨𝑯𝑴𝑨𝑵𝑰_𝑴𝑫",
+      "value":"QART",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"Don't change or your bot won't work ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/aktbgo.jpg",
+      "value":"https://files.catbox.moe/aktbgo.jpghttps://files.catbox.moe/2md9k8.jpg",
       "required":false
        
      },
@@ -54,7 +54,7 @@
     },
     "HEROKU_APY_KEY": {
       "description": "insert your heroku api-key (The name you wrote at the beginning)",
-      "value" : "HRKU-841b19e7-8679-437b-bb6c-edd4133978dd", 
+      "value" : "HRKU-AAa4OvbTCLDEK8R9CIpjZDInu5zGLmQfqkA0oJNNSu2Q_____wNi617Z3aQe", 
       "required": true
     },
   "HEROKU_APP_NAME": {
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Rahmani"
+    "value": "Qart"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255697608274"
+    "value": "255693629079"
 	  
   },
     "WARN_COUNT":
