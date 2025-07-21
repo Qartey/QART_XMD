@@ -11,7 +11,15 @@ const readMore = more.repeat(4001);
 
 zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage } = commandeOptions;
-    let { cm } = require(__dirname + "/../framework/zokou");
+
+    let cm = [];
+    try {
+        cm = require(__dirname + "/../framework/zokou").cm || [];
+    } catch (e) {
+        console.error("❌ Error loading command list:", e);
+        return repondre("⚠️ Failed to load command list.");
+    }
+
     var coms = {};
     var mode = (s.MODE.toLowerCase() === "yes") ? "PUBLIC" : "PRIVATE";
 
@@ -24,7 +32,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
-    let infoMsg = `┏━━━🔰 *𝑸𝑨𝑹𝑻-𝑿𝑴𝑫 𝑩𝑶𝑻 * 🔰━━━┓
+    let infoMsg = `┏━━━🔰 *𝑸𝑨𝑹𝑻-𝑿𝑴𝑫 𝑩𝑶𝑻* 🔰━━━┓
 ┃ 🔰  𝑯𝑰, *${nomAuteurMessage}*! 🔰
 ┣━━━━━━━━━━━━━━━━━━━━━
 ┃ 💥 *𝑺𝒀𝑺𝑻𝑬𝑴 𝑰𝑵𝑭𝑶:*
@@ -58,7 +66,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         zk.sendMessage(dest, { 
             image: { url: imageUrl }, 
             caption: infoMsg + menuMsg, 
-            footer: "® 𝑸𝑨𝑹𝑻-𝑿𝑴𝑫 𝑩𝑶𝑻 " 
+            footer: "® 𝑸𝑨𝑹𝑻-𝑿𝑴𝑫 𝑩𝑶𝑻" 
         }, { quoted: ms });
     } catch (e) {
         console.log("🥵 Menu error: " + e);
