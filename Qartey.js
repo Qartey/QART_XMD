@@ -1558,18 +1558,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log(" QART_XMD is connecting...");
+                console.log(" Qartey is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ QART_XMD Connected to WhatsApp! ☺️");
+                console.log("✅ Qartey Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("QART_XMD is Online 🕸\n\n");
+                console.log("Qartey is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading QART_XMD Commands ...\n");
+                console.log("Loading Qartey Commands ...\n");
                 fs.readdirSync(__dirname + " commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
