@@ -1,2 +1,2 @@
 
-web: node Qartey.js && node Qartey.js
+web: node Qartey.js
