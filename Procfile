@@ -1,2 +1,2 @@
 
-web: node Qartey.js
+web: node index.js
