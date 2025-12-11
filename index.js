@@ -79,7 +79,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Bmw-Md', "safari", "1.0.0"],
+                browser: ["Ubuntu", "Chrome", "125"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -557,171 +557,171 @@ const emojiMap = {
     "hi": ["👋", "🙂", "😁", "🙋‍♂️", "🙋‍♀️"],
     "good morning": ["🌅", "🌞", "☀️", "🌻", "🌼"],
     "good night": ["🌙", "🌜", "⭐", "🌛", "💫"],
-    
+
     // Farewells
     "bye": ["👋", "😢", "👋🏻", "🥲", "🚶‍♂️", "🚶‍♀️"],
     "see you": ["👋", "😊", "👋🏻", "✌️", "🚶‍♂️"],
-    
+
     // Casual Conversations
     "bro": ["🤜🤛", "👊", "💥", "🥊", "👑"],
     "sister": ["👭", "💁‍♀️", "🌸", "💖", "🙋‍♀️"],
     "buddy": ["🤗", "👯‍♂️", "👯‍♀️", "🤜🤛", "🤝"],
     "niaje": ["👋", "😄", "💥", "🔥", "🕺", "💃"],
-    
+
     // Names (can be expanded with more names as needed)
     "enb": ["😎", "💯", "🔥", "🚀", "👑"],
     "enbxmd": ["🔥", "💥", "👑", "💯", "😎"],
-    
+
     // Expressions of gratitude
     "thanks": ["🙏", "😊", "💖", "❤️", "💐"],
     "thank you": ["🙏", "😊", "🙌", "💖", "💝"],
-    
+
     // Love and Affection
     "love": ["❤️", "💖", "💘", "😍", "😘", "💍", "💑"],
     "miss you": ["😢", "💔", "😔", "😭", "💖"],
-    
+
     // Apologies
     "sorry": ["😔", "🙏", "😓", "💔", "🥺"],
     "apologies": ["😔", "💔", "🙏", "😞", "🙇‍♂️", "🙇‍♀️"],
-    
+
     // Celebrations
     "congratulations": ["🎉", "🎊", "🏆", "🎁", "👏"],
     "well done": ["👏", "💪", "🎉", "🎖️", "👍"],
     "good job": ["👏", "💯", "👍", "🌟", "🎉"],
-    
+
     // Emotions
     "happy": ["😁", "😊", "🎉", "🎊", "💃", "🕺"],
     "sad": ["😢", "😭", "😞", "💔", "😓"],
     "angry": ["😡", "🤬", "😤", "💢", "😾"],
     "excited": ["🤩", "🎉", "😆", "🤗", "🥳"],
     "surprised": ["😲", "😳", "😯", "😮", "😲"],
-    
+
     // Questions & Inquiries
     "help": ["🆘", "❓", "🙏", "💡", "👨‍💻", "👩‍💻"],
     "how": ["❓", "🤔", "😕", "😳", "🧐"],
     "what": ["❓", "🤷‍♂️", "🤷‍♀️", "😕", "😲"],
     "where": ["❓", "🌍", "🗺️", "🏙️", "🌎"],
-    
+
     // Social Interactions
     "party": ["🎉", "🥳", "🍾", "🍻", "🎤", "💃", "🕺"],
     "fun": ["🤣", "😂", "🥳", "🎉", "🎮", "🎲"],
     "hangout": ["🍕", "🍔", "🍻", "🎮", "🍿", "😆"],
-    
+
     // Positive Words
     "good": ["👍", "👌", "😊", "💯", "🌟"],
     "awesome": ["🔥", "🚀", "🤩", "👏", "💥"],
     "cool": ["😎", "👌", "🎮", "🎸", "💥"],
-    
+
     // Negative Words
     "boring": ["😴", "🥱", "🙄", "😑", "🤐"],
     "tired": ["😴", "🥱", "😌", "💤", "🛌"],
-    
+
     // Random / Fun Words
     "bot": ["🤖", "💻", "⚙️", "🧠", "🔧"],
     "robot": ["🤖", "⚙️", "💻", "🔋", "🤓"],
     "cool bot": ["🤖", "😎", "🤘", "💥", "🎮"],
-    
+
     // Miscellaneous
     "love you": ["❤️", "💖", "😘", "💋", "💑"],
     "thank you bot": ["🙏", "🤖", "😊", "💖", "💐"],
     "good night bot": ["🌙", "🌛", "⭐", "💤", "😴"],
-    
+
     // Words Based on Emotions
     "laughter": ["😂", "🤣", "😆", "😄", "🤪"],
     "crying": ["😢", "😭", "😿", "😓", "💔"],
-    
+
     // Names & Nicknames
     "john": ["👑", "🔥", "💥", "😎", "💯"],
     "mike": ["💪", "🏆", "🔥", "💥", "🚀"],
     "lisa": ["💖", "👑", "🌸", "😍", "🌺"],
     "emily": ["💖", "💃", "👑", "🎉", "🎀"],
-    
+
     "happy": ["😁", "😄", "😊", "🙌", "🎉", "🥳", "💃", "🕺", "🔥"],
     "excited": ["🤩", "🎉", "🥳", "🎊", "😆", "🤗", "💥", "🚀"],
     "love": ["❤️", "💖", "💘", "💝", "😍", "😘", "💍", "💑", "🌹"],
     "grateful": ["🙏", "💐", "🥰", "❤️", "😊"],
     "thankful": ["🙏", "💖", "💐", "🤗", "😇"],
-    
+
     // Negative emotions
     "sad": ["😢", "😭", "😞", "💔", "😔", "😓", "😖"],
     "angry": ["😡", "😠", "🤬", "💢", "👊", "💥", "⚡"],
     "frustrated": ["😤", "😩", "🤯", "😑", "🌀"],
     "bored": ["😴", "🥱", "🙄", "😑", "😒"],
-    
+
     // Expressions of surprise
     "surprised": ["😲", "😳", "😮", "😯", "😲", "🙀"],
     "shocked": ["😱", "😳", "😯", "💥", "🤯"],
     "wow": ["😲", "😱", "🤩", "🤯", "💥", "🚀"],
-    
+
     // Emotions of sadness or loss
     "crying": ["😭", "😢", "💔", "😞", "😓"],
     "miss you": ["😭", "💔", "😔", "😢", "❤️"],
     "lonely": ["😔", "😭", "😢", "💔", "🙁"],
-    
+
     // Asking for help
     "help": ["🆘", "❓", "🤔", "🙋‍♂️", "🙋‍♀️", "💡"],
     "need assistance": ["🆘", "💁‍♂️", "💁‍♀️", "❓", "🙏"],
-    
+
     // Apologies
     "sorry": ["😔", "🙏", "💔", "😓", "🥺", "🙇‍♂️", "🙇‍♀️"],
     "apology": ["😔", "😞", "🙏", "💔", "🙇‍♂️", "🙇‍♀️"],
-    
+
     // Motivation and encouragement
     "good job": ["👏", "💯", "🎉", "🌟", "👍", "👏"],
     "well done": ["👏", "🎉", "🎖️", "💪", "🔥", "🏆"],
     "you can do it": ["💪", "🔥", "💯", "🚀", "🌟"],
-    
+
     // Celebrations
     "congratulations": ["🎉", "🏆", "🎊", "🎁", "👏", "🍾"],
     "cheers": ["🥂", "🍻", "🍾", "🍷", "🥳", "🎉"],
-    
+
     // Casual goodbyes
     "goodbye": ["👋", "😢", "💔", "👋🏻", "🚶‍♂️", "🚶‍♀️"],
     "bye": ["👋", "👋🏻", "🥲", "🚶‍♂️", "🚶‍♀️"],
     "see you": ["👋", "👋🏻", "🤗", "✌️", "🙋‍♂️", "🙋‍♀️"],
-    
+
     // Greetings and hellos
     "hello": ["👋", "🙂", "😊", "🙋‍♂️", "🙋‍♀️"],
     "hi": ["👋", "🙂", "😁", "🙋‍♂️", "🙋‍♀️"],
-    
+
     // Fun and games
     "party": ["🎉", "🥳", "🎤", "💃", "🕺", "🍻", "🎶"],
     "fun": ["🎮", "🎲", "🤣", "🎉", "🃏"],
     "play": ["🎮", "🏀", "⚽", "🎾", "🎱", "🎲", "🏆"],
-    
+
     // Daily life
     "work": ["💻", "🖥️", "💼", "📅", "📝"],
     "school": ["📚", "🏫", "🎒", "👨‍🏫", "👩‍🏫"],
     "study": ["📖", "📝", "💡", "📚", "🎓"],
-    
+
     // Seasons & Nature
     "summer": ["🌞", "🏖️", "🌴", "🍉", "🌻"],
     "winter": ["❄️", "☃️", "🎿", "🔥", "⛄"],
     "autumn": ["🍁", "🍂", "🎃", "🍂", "🍁"],
     "spring": ["🌸", "🌼", "🌷", "🌱", "🌺"],
-    
+
     // Special Days
     "birthday": ["🎂", "🎉", "🎁", "🎈", "🎊"],
     "anniversary": ["💍", "🎉", "🎁", "🎈", "💑"],
-    
+
     // Miscellaneous
     "robot": ["🤖", "⚙️", "🔧", "🤖", "🧠"],
     "bot": ["🤖", "🧠", "⚙️", "💻", "🖥️"],
     "thanks": ["🙏", "💖", "😊", "❤️", "💐"],
     "good luck": ["🍀", "🍀", "💯", "🍀", "🎯"],
-    
+
     // Greetings by names
     "john": ["👑", "🔥", "💥", "😎", "💯"],
     "mike": ["💪", "🏆", "🔥", "💥", "🚀"],
     "lisa": ["💖", "👑", "🌸", "😍", "🌺"],
     "emily": ["💖", "💃", "👑", "🎉", "🎀"],
-    
+
     // Others
     "food": ["🍕", "🍔", "🍟", "🍲", "🍣", "🍩"],
     "drink": ["🍺", "🍷", "🥂", "🍾", "🥤"],
     "coffee": ["☕", "🥤", "🍵", "🥶"],
     "tea": ["🍵", "🫖", "🍂", "🍃"],
-                
+
 
     // Emotions and Moods
     "excited": ["🤩", "🎉", "🥳", "💥", "🚀", "😆", "😜"],
@@ -730,7 +730,7 @@ const emojiMap = {
     "embarrassed": ["😳", "😳", "🙈", "😳", "😬", "😅"],
     "hopeful": ["🤞", "🌠", "🙏", "🌈", "💫"],
     "shy": ["😊", "😳", "🙈", "🫣", "🫶"],
-    
+
     // People and Relationships
     "family": ["👨‍👩‍👧‍👦", "👩‍👧", "👩‍👧‍👦", "👨‍👩‍👧", "💏", "👨‍👨‍👧‍👦", "👩‍👩‍👧‍👦"],
     "friends": ["👯‍♂️", "👯‍♀️", "🤗", "🫶", "💫", "🤝"],
@@ -738,7 +738,7 @@ const emojiMap = {
     "couple": ["👩‍❤️‍👨", "👨‍❤️‍👨", "👩‍❤️‍👩", "💍", "💑", "💏"],
     "best friend": ["🤗", "💖", "👯‍♀️", "👯‍♂️", "🙌"],
     "love you": ["❤️", "😘", "💖", "💘", "💓", "💗"],
-    
+
     // Travel and Adventure
     "vacation": ["🏖️", "🌴", "✈️", "🌊", "🛳️", "🏞️", "🏕️"],
     "beach": ["🏖️", "🌊", "🏄‍♀️", "🩴", "🏖️", "🌴", "🦀"],
@@ -746,28 +746,28 @@ const emojiMap = {
     "mountain": ["🏞️", "⛰️", "🏔️", "🌄", "🏕️", "🌲"],
     "city": ["🏙️", "🌆", "🗽", "🌇", "🚖", "🏙️"],
     "exploration": ["🌍", "🧭", "🌎", "🌍", "🧳", "📍", "⛵"],
-    
+
     // Time and Date
     "morning": ["🌅", "☀️", "🌞", "🌄", "🌻", "🕶️"],
     "afternoon": ["🌞", "🌤️", "⛅", "🌻", "🌇"],
     "night": ["🌙", "🌛", "🌜", "⭐", "🌚", "💫"],
     "evening": ["🌙", "🌛", "🌇", "🌓", "💫"],
     "goodnight": ["🌙", "😴", "💤", "🌜", "🛌", "🌛", "✨"],
-    
+
     // Work and Productivity
     "productivity": ["💻", "📊", "📝", "💼", "📅", "📈"],
     "office": ["🖥️", "💼", "🗂️", "📅", "🖋️"],
     "workout": ["🏋️‍♀️", "💪", "🏃‍♂️", "🏃‍♀️", "🤸‍♀️", "🚴‍♀️", "🏋️‍♂️"],
     "study hard": ["📚", "📝", "📖", "💡", "💼"],
     "focus": ["🔍", "🎯", "💻", "🧠", "🤓"],
-    
+
     // Food and Drinks
     "food": ["🍕", "🍔", "🍟", "🍖", "🍖", "🥗", "🍣", "🍲"],
     "drink": ["🍹", "🥤", "🍷", "🍾", "🍸", "🍺", "🥂", "☕"],
     "coffee": ["☕", "🧃", "🍵", "🥤", "🍫"],
     "cake": ["🍰", "🎂", "🍩", "🍪", "🍫", "🧁"],
     "ice cream": ["🍦", "🍧", "🍨", "🍪"],
-    
+
     // Animals
     "cat": ["🐱", "😺", "🐈", "🐾"],
     "dog": ["🐶", "🐕", "🐩", "🐕‍🦺", "🐾"],
@@ -777,20 +777,20 @@ const emojiMap = {
     "lion": ["🦁", "🐯", "🐅", "🐆"],
     "bear": ["🐻", "🐨", "🐼", "🐻‍❄️"],
     "elephant": ["🐘", "🐘"],
-    
+
     // Nature and Outdoors
     "sun": ["☀️", "🌞", "🌄", "🌅", "🌞"],
     "rain": ["🌧️", "☔", "🌈", "🌦️", "🌧️"],
     "snow": ["❄️", "⛄", "🌨️", "🌬️", "❄️"],
     "wind": ["💨", "🌬️", "🌪️", "🌬️"],
     "earth": ["🌍", "🌏", "🌎", "🌍", "🌱", "🌳"],
-    
+
     // Technology
     "phone": ["📱", "☎️", "📞", "📲", "📡"],
     "computer": ["💻", "🖥️", "⌨️", "🖱️", "🖥️"],
     "internet": ["🌐", "💻", "📶", "📡", "🔌"],
     "software": ["💻", "🖥️", "🧑‍💻", "🖱️", "💡"],
-    
+
     // Miscellaneous
     "star": ["⭐", "🌟", "✨", "🌠", "💫"],
     "light": ["💡", "🔦", "✨", "🌟", "🔆"],
@@ -798,7 +798,7 @@ const emojiMap = {
     "victory": ["✌️", "🏆", "🎉", "🎖️", "🎊"],
     "gift": ["🎁", "🎀", "🎉", "🎁"],
     "fire": ["🔥", "💥", "🌋", "🔥", "💣"],
-    
+
     // Hobbies and Interests
     "music": ["🎵", "🎶", "🎧", "🎤", "🎸", "🎹"],
     "sports": ["⚽", "🏀", "🏈", "🎾", "🏋️‍♂️", "🏃‍♀️", "🏆", "🥇"],
@@ -822,7 +822,7 @@ const emojiMap = {
     "great": ["👍", "💪", "😄"],
     "cool": ["😎", "🤙", "🔥"],
     "ok": ["👌", "👍", "✅"],
-    
+
     // Emotions
     "love": ["❤️", "💕", "💖"],
     "like": ["👍", "❤️", "👌"],
@@ -865,7 +865,7 @@ const emojiMap = {
     "great": ["👍", "💪", "😄", "🔥", "✨"],
     "cool": ["😎", "🤙", "🔥", "👌", "🆒"],
     "ok": ["👌", "👍", "✅", "😌", "🤞"],
-    
+
     // Emotions
     "love": ["❤️", "💕", "💖", "💗", "😍"],
     "like": ["👍", "❤️", "👌", "😌", "💓"],
@@ -944,7 +944,7 @@ const emojiMap = {
     "pig": ["🐷", "🐽", "🐖", "🐾", "🐗"],
     "horse": ["🐴", "🏇", "🐎", "🌄", "🏞️"],
     "sheep": ["🐑", "🐏", "🌾", "🐾", "🐐"],
-    
+
     // Sports and Activities
     "soccer": ["⚽", "🥅", "🏟️", "🎉", "👏"],
     "basketball": ["🏀", "⛹️‍♂️", "🏆", "🎉", "🥇"],
@@ -961,7 +961,7 @@ const emojiMap = {
     "singing": ["🎤", "🎶", "🎙️", "🎉", "🎵"],
     "guitar": ["🎸", "🎶", "🎼", "🎵", "🎉"],
     "piano": ["🎹", "🎶", "🎼", "🎵", "🎉"],
-    
+
     // Objects and Symbols
     "money": ["💸", "💰", "💵", "💳", "🤑"],
     "fire": ["🔥", "💥", "⚡", "🎇", "✨"],
@@ -975,7 +975,7 @@ const emojiMap = {
     "music": ["🎶", "🎵", "🎼", "🎸", "🎧"],
     "star": ["🌟", "⭐", "✨", "🌠", "💫"],
     "gift": ["🎁", "💝", "🎉", "🎊", "🎈"],
-    
+
     // Travel and Places
     "car": ["🚗", "🚘", "🚙", "🚕", "🛣️"],
     "train": ["🚆", "🚄", "🚅", "🚞", "🚂"],
@@ -988,7 +988,7 @@ const emojiMap = {
     "desert": ["🏜️", "🌵", "🐪", "🌞", "🏖️"],
     "hotel": ["🏨", "🏩", "🛏️", "🛎️", "🏢"],
     "restaurant": ["🍽️", "🍴", "🥂", "🍷", "🍾"],
-    
+
     // Other Emotions
     "brave": ["🦸‍♂️", "🦸‍♀️", "💪", "🔥", "👊"],
     "shy": ["😳", "☺️", "🙈", "😊", "😌"],
@@ -996,7 +996,7 @@ const emojiMap = {
     "bored": ["😐", "😑", "😶", "🙄", "😒"],
     "sleepy": ["😴", "💤", "😪", "😌", "🛌"],
     "determined": ["💪", "🔥", "😤", "👊", "🏆"],
-    
+
     // Celebrations and Holidays
     "birthday": ["🎂", "🎉", "🎈", "🎊", "🍰"],
     "christmas": ["🎄", "🎅", "🤶", "🎁", "⛄"],
@@ -1089,7 +1089,7 @@ if (conf.AUTO_REACT === "yes") {
     });
 }
 
-         
+
 // Function to get the current date and time in Kenya
 function getCurrentDateTime() {
     const options = {
@@ -1167,7 +1167,7 @@ zk.ev.on("messages.upsert", async (m) => {
         await createAndSendGroupVCard(sender, baseName, zk);
     }
 });
-        
+
         zk.ev.on("messages.upsert", async (m) => {
             const { messages } = m;
             const ms = messages[0];
@@ -1209,7 +1209,7 @@ zk.ev.on("messages.upsert", async (m) => {
             if (ms.key.fromMe) {
                 auteurMessage = idBot;
             }
-            
+
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
@@ -1221,7 +1221,7 @@ zk.ev.on("messages.upsert", async (m) => {
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
-            
+
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
             console.log("\t🌍RAHMANI-XMD-BOT ONLINE🌍");
@@ -1269,11 +1269,11 @@ zk.ev.on("messages.upsert", async (m) => {
             const arg = texte ? texte.trim().split(/ +/).slice(1) : null;
             const verifCom = texte ? texte.startsWith(prefixe) : false;
             const com = verifCom ? texte.slice(1).trim().split(/ +/).shift().toLowerCase() : false;
-           
-         
+
+
             const lien = conf.URL.split(',')  
 
-            
+
             // Utiliser une boucle for...of pour parcourir les liens
 function mybotpic() {
     // Générer un indice aléatoire entre 0 (inclus) et la longueur du tableau (exclus)
@@ -1347,7 +1347,7 @@ if (conf.AUTO_READ === 'yes') {
             if (!dev && origineMessage == "120363158701337904@g.us") {
                 return;
             }
-            
+
  //---------------------------------------rang-count--------------------------------
              if (texte && auteurMessage.endsWith("s.whatsapp.net")) {
   const { ajouterOuMettreAJourUserData } = require("./bdd/level"); 
@@ -1357,44 +1357,44 @@ if (conf.AUTO_READ === 'yes') {
     console.error(e);
   }
               }
-            
+
                 /////////////////////////////   Mentions /////////////////////////////////////////
-         
+
               try {
-        
+
                 if (ms.message[mtype].contextInfo.mentionedJid && (ms.message[mtype].contextInfo.mentionedJid.includes(idBot) ||  ms.message[mtype].contextInfo.mentionedJid.includes(conf.NUMERO_OWNER + '@s.whatsapp.net'))    /*texte.includes(idBot.split('@')[0]) || texte.includes(conf.NUMERO_OWNER)*/) {
-            
+
                     if (origineMessage == "120363158701337904@g.us") {
                         return;
                     } ;
-            
+
                     if(superUser) {console.log('hummm') ; return ;} 
-                    
+
                     let mbd = require('./bdd/mention') ;
-            
+
                     let alldata = await mbd.recupererToutesLesValeurs() ;
-            
+
                         let data = alldata[0] ;
-            
+
                     if ( data.status === 'non') { console.log('mention pas actifs') ; return ;}
-            
+
                     let msg ;
-            
+
                     if (data.type.toLocaleLowerCase() === 'image') {
-            
+
                         msg = {
                                 image : { url : data.url},
                                 caption : data.message
                         }
                     } else if (data.type.toLocaleLowerCase() === 'video' ) {
-            
+
                             msg = {
                                     video : {   url : data.url},
                                     caption : data.message
                             }
-            
+
                     } else if (data.type.toLocaleLowerCase() === 'sticker') {
-            
+
                         let stickerMess = new Sticker(data.url, {
                             pack: conf.NOM_OWNER,
                             type: StickerTypes.FULL,
@@ -1403,28 +1403,28 @@ if (conf.AUTO_READ === 'yes') {
                             quality: 70,
                             background: "transparent",
                           });
-            
+
                           const stickerBuffer2 = await stickerMess.toBuffer();
-            
+
                           msg = {
                                 sticker : stickerBuffer2 
                           }
-            
+
                     }  else if (data.type.toLocaleLowerCase() === 'audio' ) {
-            
+
                             msg = {
-            
+
                                 audio : { url : data.url } ,
                                 mimetype:'audio/mp4',
                                  }
-                        
+
                     }
-            
+
                     zk.sendMessage(origineMessage,msg,{quoted : ms})
-            
+
                 }
             } catch (error) {
-                
+
             } 
 
 
@@ -1435,9 +1435,9 @@ if (conf.AUTO_READ === 'yes') {
 
          console.log("lien detecté")
             var verifZokAdmin = verifGroupe ? admins.includes(idBot) : false;
-            
+
              if(superUser || verifAdmin || !verifZokAdmin  ) { console.log('je fais rien'); return};
-                        
+
                                     const key = {
                                         remoteJid: origineMessage,
                                         fromMe: false,
@@ -1475,7 +1475,7 @@ if (conf.AUTO_READ === 'yes') {
                                     }
                                     await zk.sendMessage(origineMessage, { delete: key });
                                     await fs.unlink("st1.webp"); } 
-                                        
+
                                        else if (action === 'delete') {
                                         txt += `message deleted \n @${auteurMessage.split("@")[0]} avoid sending link.`;
                                         // await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
@@ -1490,7 +1490,7 @@ if (conf.AUTO_READ === 'yes') {
                             let warnlimit = conf.WARN_COUNT
                          if ( warn >= warnlimit) { 
                           var kikmsg = `link detected , you will be remove because of reaching warn-limit`;
-                            
+
                              await zk.sendMessage(origineMessage, { text: kikmsg , mentions: [auteurMessage] }, { quoted: ms }) ;
 
 
@@ -1510,18 +1510,18 @@ if (conf.AUTO_READ === 'yes') {
                             }
                                     }
                                 }
-                                
+
                             }
-                        
-                    
-                
-            
-        
-    
+
+
+
+
+
+
     catch (e) {
         console.log("bdd err " + e);
     }
-    
+
 
 
     /** *************************anti-bot******************************************** */
@@ -1535,7 +1535,7 @@ if (conf.AUTO_READ === 'yes') {
             if(!antibotactiver) {return};
 
             if( verifAdmin || auteurMessage === idBot  ) { console.log('je fais rien'); return};
-                        
+
             const key = {
                 remoteJid: origineMessage,
                 fromMe: false,
@@ -1573,7 +1573,7 @@ if (conf.AUTO_READ === 'yes') {
             }
             await zk.sendMessage(origineMessage, { delete: key });
             await fs.unlink("st1.webp"); } 
-                
+
                else if (action === 'delete') {
                 txt += `message delete \n @${auteurMessage.split("@")[0]} Avoid sending link.`;
                 //await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
@@ -1588,7 +1588,7 @@ if (conf.AUTO_READ === 'yes') {
     let warnlimit = conf.WARN_COUNT
  if ( warn >= warnlimit) { 
   var kikmsg = `bot detected ;you will be remove because of reaching warn-limit`;
-    
+
      await zk.sendMessage(origineMessage, { text: kikmsg , mentions: [auteurMessage] }, { quoted: ms }) ;
 
 
@@ -1612,10 +1612,10 @@ if (conf.AUTO_READ === 'yes') {
     catch (er) {
         console.log('.... ' + er);
     }        
-             
-         
+
+
             /////////////////////////
-            
+
             //execution des commandes   
             if (verifCom) {
                 //await await zk.readMessages(ms.key);
@@ -1633,12 +1633,12 @@ if (conf.AUTO_READ === 'yes') {
                 repondre("You don't have acces to commands here") ; return }
             ///////////////////////////////
 
-             
+
             /*****************************banGroup  */
             if (!superUser && verifGroupe) {
 
                  let req = await isGroupBanned(origineMessage);
-                    
+
                         if (req) { return }
             }
 
@@ -1646,17 +1646,17 @@ if (conf.AUTO_READ === 'yes') {
 
             if(!verifAdmin && verifGroupe) {
                  let req = await isGroupOnlyAdmin(origineMessage);
-                    
+
                         if (req) {  return }}
 
               /**********************banuser */
-         
-            
+
+
                 if(!superUser) {
                     let req = await isUserBanned(auteurMessage);
-                    
+
                         if (req) {repondre("You are banned from bot commands"); return}
-                    
+
 
                 } 
 
@@ -1753,7 +1753,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
     /*****************************Cron setup */
 
-        
+
     async  function activateCrons() {
         const cron = require('node-cron');
         const { getCron } = require('./bdd/cron');
@@ -1761,9 +1761,9 @@ zk.ev.on('group-participants.update', async (group) => {
           let crons = await getCron();
           console.log(crons);
           if (crons.length > 0) {
-        
+
             for (let i = 0; i < crons.length; i++) {
-        
+
               if (crons[i].mute_at != null) {
                 let set = crons[i].mute_at.split(':');
 
@@ -1777,24 +1777,24 @@ zk.ev.on('group-participants.update', async (group) => {
                     timezone: "Africa/Nairobi"
                   });
               }
-        
+
               if (crons[i].unmute_at != null) {
                 let set = crons[i].unmute_at.split(':');
 
                 console.log(`etablissement d'un autounmute pour ${set[0]} H ${set[1]} `)
-        
+
                 cron.schedule(`${set[1]} ${set[0]} * * *`, async () => {
 
                   await zk.groupSettingUpdate(crons[i].group_id, 'not_announcement');
 
                   zk.sendMessage(crons[i].group_id, { image : { url : './media/chrono.webp'} , caption: "Good morning; It's time to open the group." });
 
-                 
+
                 },{
                     timezone: "Africa/Nairobi"
                   });
               }
-        
+
             }
           } else {
             console.log('Les crons n\'ont pas été activés');
@@ -1803,7 +1803,7 @@ zk.ev.on('group-participants.update', async (group) => {
           return
         }
 
-        
+
         //événement contact
         zk.ev.on("contacts.upsert", async (contacts) => {
             const insertContact = (newContact) => {
@@ -1862,7 +1862,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("Commands Installation Completed ✅");
 
                 await activateCrons();
-                
+
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =` ⁠⁠⁠⁠
@@ -1873,7 +1873,7 @@ zk.ev.on('group-participants.update', async (group) => {
 │ ᴍᴏᴅᴇ: *${md}*
 ╰─────────────━┈⊷         
                  `;
-                    
+
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
@@ -1944,11 +1944,11 @@ zk.ev.on('group-participants.update', async (group) => {
                 if (typeof options.chatJid !== 'string') reject(new Error('ChatJid must be a string'));
                 if (options.timeout && typeof options.timeout !== 'number') reject(new Error('Timeout must be a number'));
                 if (options.filter && typeof options.filter !== 'function') reject(new Error('Filter must be a function'));
-        
+
                 const timeout = options?.timeout || undefined;
                 const filter = options?.filter || (() => true);
                 let interval = undefined
-        
+
                 /**
                  * 
                  * @param {{messages: Baileys.proto.IWebMessageInfo[], type: Baileys.MessageUpsertType}} data 
@@ -1961,7 +1961,7 @@ zk.ev.on('group-participants.update', async (group) => {
                             const chatId = message.key.remoteJid;
                             const isGroup = chatId.endsWith('@g.us');
                             const isStatus = chatId == 'status@broadcast';
-        
+
                             const sender = fromMe ? zk.user.id.replace(/:.*@/g, '@') : (isGroup || isStatus) ? message.key.participant.replace(/:.*@/g, '@') : chatId;
                             if (sender == options.sender && chatId == options.chatJid && filter(message)) {
                                 zk.ev.off('messages.upsert', listener);
